@@ -1,0 +1,43 @@
+#S4HANA columns
+#Columns from the Excel Workbook JDE to S/4HANA, sheet s4hana Column s/4 HANA Column Name
+#without blanks and duplicates, as well as removing non column rows.
+
+"DWERK","CHARG","GAMNG","GASMG","IGMNG","GMEIN","GSTRI","GSTRS","MATNR","MAKTX","AUFNR"
+"DISPO","FEVOR","TXT30","SOBSL","MMSTA","VFDAT","ZZ1_DIRECT_SHIP_FLAG_PRD","LGORT","ZUSTD",
+"ATWRT","ZZ1_PRODUCT_LINE_PRD","WERKS","KTEXT","ARBID","ANZMA","PPSKZ","NGRAD","VGWTS","PWERK",
+"POSNR","UDATE","LTRMI","WEMNG","GLTRS","GETRI","PLIFZ","AUART","BWART","CPUDT","MENGE","ERDAT","UTIME"
+###
+"ERNAM","AUART_ANA","KWMENG","NETPR","BUKRS_VF","BUKRS","NETWR","ELEMT","KST001",
+"KST002","KST003","KST004","KST005"
+###
+"KST006","KST007","KST008","KST009","KST010","KST011","KST012","KST013","KST014",
+"KST015","KST016","KST017","KST018","KST019","KST020","KST021","KST022","KADAT","BIDAT",
+"VBELN","MBLNR","CPUTM","USNAM","VORNR","LTXA1"
+###
+"MGVRG","SSAVD","SSAVZ","KOSTL","SAKTO","BSART","EBELN","EBELP","MAKTG","NAME_ORG1",
+"WAERS","CREATIONDATE","EINDT","LASTCHANGEDATETIME","RCNTR","RACCT","BLART","WSL/HSL/KSL",
+"BELNR","BUDAT","TIMESTAMP"
+
+#####################
+
+#Columns to search for JDE to S4HANA Mapping sheet. This includes only the columns in
+#the column S/4 HANA Column Name of the JDE to S4HANA Mapping minus the S/4 HANA Column
+#Name from the s4hana sheet in the JDEtoS4HANA.xlsx Excel workbook. Estimated rate for
+#running code is Elements per hour rate: 6.459. To perform the first run 10 hours,
+#I'll run 60 elements (claculations estimate 64.6)
+"USNAZ", "RBUKRS", "TRANZ", "RLDNR", "ZEILI", "GLACCOUNT_TYPE", "GJAHR", "ZZ1_FINISH_PLANT_PRD",
+"FMENG", "NODETYPE", "IEDD", "ISM02", "VGW02", "BKLAS", "ISBZ", "STRMP", "DZEIT", "KDAUF", "SLABS",
+"MSTAE", "MAABC", "SOURCE_SLOC", "ZZ1_PRODUCT_LINE", "TXT04", "ZWNOR", "PLNFL", "PTEXT", "CLABS",
+"LAND1", "INSMK", "VMENG", "ISBD", "AEDAT", "LMNGA", "WARTZ", "WZEIT", "WKF010", "TXT50", "EISBE",
+"LFIMG", "DAUAT", "STLTY", "BUCHM", "ZZ1_PCS_SALES_UNIT_PRD", "BWKET", "AUSCH", "POSTP", "WRKST",
+"KTOKS", "ZLDAT", "CEINM", "IEBD", "AUFAK", "DISMM", "STPRS", "GRUND", "CRETM", "ISM03", "MTBEZ",
+"POPER"
+### 13 elements for the second run
+ "BDMNG", "XMNGA", "ZZ1_MTS_MTO_FLAG_PLT", "MTART", "IEBZ", "BSTME", "NAME1", "MHDHB", "GTIN_VARIANT",
+ "DATUV", "SGTXT", "ARBPL", "ISM01"
+ ###
+ "LTRMP", "STPOZ", "CUMLM", "VALID_TO", "VGW01", "CINSM", "IBLNR", "IDNRK", "LGMNG", "FKBTX", "ZTNOR",
+ "PAMNG", "DESCRIPTION", "VGW03", "RFAREA", "CSPEM", "IEDZ", "MEINH", "ZZ1_START_PLANT_PRD", "ATWTB",
+ "AUFPL", "MEINS", "BUTXT"
+
+#Updated elements per hour rate: 6.045509876987776
