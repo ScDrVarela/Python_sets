@@ -35,9 +35,9 @@
 ### 13 elements for the second run
  "BDMNG", "XMNGA", "ZZ1_MTS_MTO_FLAG_PLT", "MTART", "IEBZ", "BSTME", "NAME1", "MHDHB", "GTIN_VARIANT",
  "DATUV", "SGTXT", "ARBPL", "ISM01"
- ###
+ ### 23 elements for the last run
  "LTRMP", "STPOZ", "CUMLM", "VALID_TO", "VGW01", "CINSM", "IBLNR", "IDNRK", "LGMNG", "FKBTX", "ZTNOR",
  "PAMNG", "DESCRIPTION", "VGW03", "RFAREA", "CSPEM", "IEDZ", "MEINH", "ZZ1_START_PLANT_PRD", "ATWTB",
  "AUFPL", "MEINS", "BUTXT"
-
+#LSM for linear regression results:
 #Updated elements per hour rate: 6.045509876987776
